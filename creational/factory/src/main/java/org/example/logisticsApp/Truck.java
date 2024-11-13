@@ -1,4 +1,4 @@
-package org.example.factoryMethod;
+package org.example.logisticsApp;
 
 // Concrete Product for Truck
 public class Truck implements Transport {

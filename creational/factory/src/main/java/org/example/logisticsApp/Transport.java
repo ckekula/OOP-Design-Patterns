@@ -1,4 +1,4 @@
-package org.example.factoryMethod;
+package org.example.logisticsApp;
 
 // Abstract Product
 public interface Transport {

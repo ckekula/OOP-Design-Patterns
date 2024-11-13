@@ -1,8 +1,8 @@
 package org.example;
 
-import org.example.factoryMethod.ShipFactory;
-import org.example.factoryMethod.TransportFactory;
-import org.example.factoryMethod.TruckFactory;
+import org.example.logisticsApp.ShipFactory;
+import org.example.logisticsApp.TransportFactory;
+import org.example.logisticsApp.TruckFactory;
 
 public class Main {
     public static void main(String[] args) {

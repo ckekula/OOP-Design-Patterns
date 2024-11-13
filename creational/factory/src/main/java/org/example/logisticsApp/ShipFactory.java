@@ -1,4 +1,4 @@
-package org.example.factoryMethod;
+package org.example.logisticsApp;
 
 // Concrete Factory for Ship
 public class ShipFactory extends TransportFactory {

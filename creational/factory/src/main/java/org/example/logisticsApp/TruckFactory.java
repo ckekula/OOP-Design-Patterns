@@ -1,4 +1,4 @@
-package org.example.factoryMethod;
+package org.example.logisticsApp;
 
 // Concrete Factory for Truck
 public class TruckFactory extends TransportFactory {

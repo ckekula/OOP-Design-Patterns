@@ -1,5 +1,7 @@
 # Adapter Design Pattern
 
+Adapter is a **structural** design pattern that allows objects with incompatible interfaces to collaborate.
+
 ## Problem
 
 Imagine that you’re creating a stock market monitoring app. The app downloads the stock data from multiple 

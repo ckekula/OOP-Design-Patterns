@@ -1,4 +1,5 @@
 package org.example.vehicle;
+import com.example.oop.vehicle.Operable;
 
 // Abstraction: Abstract class and implements Operable implementation
 public abstract class Vehicle implements Operable {

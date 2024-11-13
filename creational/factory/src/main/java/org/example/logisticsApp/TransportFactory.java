@@ -1,4 +1,4 @@
-package org.example.factoryMethod;
+package org.example.logisticsApp;
 
 // Abstract Creator Class
 public abstract class TransportFactory {

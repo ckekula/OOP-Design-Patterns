@@ -1,7 +1,7 @@
 package org.example.person;
 
 import org.example.vehicle.Vehicle;
-import org.example.utils.MathUtils;
+import org.example.vehicle.VehicleType;
 
 // Method Overloading, Association
 public class Driver extends Person {
@@ -26,15 +26,14 @@ public class Driver extends Person {
     }
 
     // Method overloading
-    public void drive(int speed, String vehicleType) {
+    public void drive(int speed, VehicleType vehicleType) {
         System.out.println(getName() + " is driving a " + vehicleType + " at " + speed + " km/h.");
     }
 
     public void drive(Vehicle vehicle, double distance, double speed) {
         vehicle.start();
-        double time = MathUtils.calculateTime(distance, speed);
         System.out.printf("%s is driving the %s for %.2f km at %.2f km/h. Estimated time: %.2f hours.%n",
-                name, vehicle.getName(), distance, speed, time);
+                getName(), vehicle.getName(), distance, speed);
         vehicle.stop();
     }
 }
