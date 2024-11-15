@@ -60,10 +60,8 @@ but exactly how it works isn’t important to the client.
 2. **Concrete Products** are different implementations of the product interface.
 3. The **Creator** class declares the factory method that returns new product objects. 
 It’s important that the return type of this method matches the product interface. 
-
-You can declare the factory method as abstract to force all subclasses to implement their own versions of the method. 
+4. You can declare the factory method as abstract to force all subclasses to implement their own versions of the method. 
 As an alternative, the base factory method can return some default product type.
-
-4. Concrete Creators override the base factory method so it returns a different type of product.
+5. Concrete Creators override the base factory method so it returns a different type of product.
 
 
