@@ -3,7 +3,7 @@ package org.example.store;
 import java.util.ArrayList;
 import java.util.List;
 
-// Publisher (Subject) Interface: Defines methods for attaching, detaching, and notifying subscribers
+// Subject Interface: Defines methods for attaching, detaching, and notifying subscribers
 public class Store {
     private List<Customer> customers = new ArrayList<>(); // List to hold registered customers
     private String newProduct; // Stores the new product notification

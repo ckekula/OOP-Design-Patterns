@@ -1,6 +1,6 @@
 package org.example.store;
 
-// Concrete Subscriber: A regular customer who gets notified when a new product is available
+// Concrete Observer: A regular customer who gets notified when a new product is available
 public class RegularCustomer implements Customer {
     private String name;
 

@@ -27,12 +27,12 @@ from that publisher. This mechanism consists of
 
 ## Structure
 
-1. The **Publisher** issues events of interest to other objects. These events occur when the publisher changes 
+1. The **Subject** issues events of interest to other objects. These events occur when the publisher changes 
 its state or executes some behaviors. Publishers contain a subscription infrastructure that 
 lets new subscribers join and current subscribers leave the list.
 2. When a new event happens, the publisher goes over the subscription list and calls the notification
 method declared in the subscriber interface on each subscriber object.
-3. The **Subscriber interface** declares the notification interface. It consists of a single update method. 
+3. The **Observer interface** declares the notification interface. It consists of a single update method. 
 The method may have several parameters that let the publisher pass some event details along with the update.
 4. **Concrete Subscribers** perform some actions in response to notifications issued by the publisher. 
 All of these classes must implement the same interface so the publisher isn’t coupled to concrete classes.
